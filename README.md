@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# ⚡ Vidyut Sanchalak (विद्युत संचालक)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> *A comprehensive codebase and computational toolkit dedicated to modern power system analysis, electrical machine modeling, and smart grid automation.*
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 About The Project
+**Vidyut Sanchalak** is engineered to bridge core electrical engineering concepts with practical software implementation. Designed with a focus on rigorous analytical modeling, power flow optimization, and control systems, this repository serves as a functional framework for electrical engineers, researchers, and core engineering aspirants interested in power systems and automation.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Core Engineering Domains & Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **⚡ Power Systems Analysis:** Implementation of algorithms for Load Flow (Newton-Raphson, Gauss-Seidel), Economic Load Dispatch, and Fault Analysis (Symmetrical & Unsymmetrical).
+* **🔄 Electrical Machines Modeling:** Dynamic simulation parameters and mathematical modeling for Transformers, Synchronous Generators, and Induction Motors.
+* **📊 Control & Automation:** Feedback loop stability analysis, Bode/Nyquist plots, and root locus derivations for linear time-invariant (LTI) systems.
+* **🔌 Substation & Grid Control Logic:** Scripts and logic modeling mirroring real-world grid operations, protection schemes, and SCADA monitoring concepts.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Tech Stack & Dependencies
 
-### `npm run build`
+* **Language:** Python / MATLAB *(update based on your exact implementation)*
+* **Key Libraries:** 
+  * `NumPy` & `SciPy` (for matrix computations and numerical differential equation solving)
+  * `Matplotlib` / `Control` (for system response and stability visualization)
+  * `Pandas` (for handling grid load profile datasets)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Repository Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```tree
+vidyut-sanchalak/
+│
+├── power-systems/       # Load flow, fault calculations, and transmission line parameters
+├── machines/            # Equivalent circuit simulations and torque-speed characteristics
+├── control-systems/     # Stability criteria, compensators, and frequency response
+├── assets/              # Circuit diagrams, single-line diagrams (SLDs), and plots
+└── README.md            # Project Documentation
+```
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ensure you have Python installed along with the essential engineering packages:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+pip install numpy scipy matplotlib control pandas
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation & Execution
 
-## Learn More
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/govinda-1403/vidyut-sanchalak.git](https://github.com/govinda-1403/vidyut-sanchalak.git)
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Navigate into the project directory:**
+   ```bash
+   cd vidyut-sanchalak
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Run any specific module (e.g., power flow or machine analysis script):**
+   ```bash
+   python power-systems/load_flow.py
+   ```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💡 Future Roadmap
 
-### Analyzing the Bundle Size
+- [ ] Add real-time load forecasting models using historical grid data.
+- [ ] Expand fault analysis modules for microgrid configurations.
+- [ ] Implement automated single-line diagram (SLD) generation tools.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, suggestions, and peer reviews from fellow electrical engineering enthusiasts and core tech developers are always welcome! Feel free to open an issue or submit a pull request.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📜 License
 
-### Deployment
+Distributed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Crafted with ⚡ for the core engineering community.*
